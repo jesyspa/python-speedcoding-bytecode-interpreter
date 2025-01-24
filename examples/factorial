@@ -1,0 +1,12 @@
+read    reg     0
+load    const   1
+store   reg     1
+load    reg     0
+jump    zero    11
+mul     reg     1
+store   reg     1
+load    reg     0
+add     const   -1
+store   reg     0
+jump    pos     5
+print   reg     1
