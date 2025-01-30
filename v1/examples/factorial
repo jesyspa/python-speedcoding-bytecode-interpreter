@@ -1,0 +1,7 @@
+input r1
+mov r2 1
+jump zero 6
+mul r2 r1
+add r1 -1
+jump pos 3
+output r2

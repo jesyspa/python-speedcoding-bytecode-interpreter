@@ -1,0 +1,14 @@
+input r1
+mov r2 0
+mov r3 1
+mov r4 0
+mov i2 r4
+add r4 r3
+mov r3 i2
+add r2 1
+add r1 -1
+jump pos 4
+mov r1 r2
+add r1 -1
+output i1
+jump pos 11
